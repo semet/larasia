@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ComponentSettings" COMPONENT_TEMPLATE_KEY="templates/component/{{componentName}}.vue.mustache" SASS_TEMPLATE_KEY="templates/component/_{{componentName}}.scss.mustache" STORYBOOK_TEMPLATE_KEY="templates/component/{{componentName}}.story.js.mustache" />
+</project>

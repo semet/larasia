@@ -1,0 +1,28 @@
+{
+    "link": {
+        "home": {
+            "url": "/admin/home",
+            "icon": "icon home"
+        },
+
+        "fakultas": {
+            "url": "/admin/fakultas",
+            "icon": "icon home"
+        },
+
+        "staff": {
+            "url": "/admin/staff",
+            "icon": "icon home"
+        },
+
+        "tahun": {
+            "url": "/admin/tahun",
+            "icon": "icon home"
+        },
+
+        "semester": {
+            "url": "/admin/semester",
+            "icon": "icon home"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.19",
+        "bootstrap": "^4.5.0",
+        "cross-env": "^7.0",
+        "jquery": "^3.5.1",
+        "laravel-mix": "^5.0.1",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.16.1",
+        "resolve-url-loader": "^3.1.0",
+        "sass": "^1.15.2",
+        "sass-loader": "^8.0.0",
+        "vue": "^2.6.11",
+        "vue-router": "^3.3.4",
+        "vue-template-compiler": "^2.6.11",
+        "vuex": "^3.5.1"
+    },
+    "dependencies": {
+        "es6-promise": "^4.2.8",
+        "js-cookie": "^2.2.1",
+        "laravel-mix-alias": "^1.0.2",
+        "metismenujs": "^1.2.1",
+        "moment": "^2.27.0",
+        "simplebar-vue": "^1.5.1",
+        "vue-bootstrap-datetimepicker": "^5.0.1",
+        "vue-loading-overlay": "^3.3.2",
+        "vue-progressbar": "^0.7.5",
+        "vue-sweetalert2": "^3.0.6",
+        "vue-toastr": "^2.1.2",
+        "vuex-persistedstate": "^3.0.1"
+    }
+}
